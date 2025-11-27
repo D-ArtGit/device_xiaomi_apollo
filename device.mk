@@ -154,6 +154,11 @@ PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer \
     XiaomiDolby
 
+# Display
+PRODUCT_PACKAGES += \
+    vendor.display.config@1.9 \
+    vendor.display.config@1.9.vendor \
+
 # Dolby Props
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1 \
